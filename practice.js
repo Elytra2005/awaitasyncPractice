@@ -6,7 +6,7 @@
 function coffeeOrder() {
     // takes 2 methods resolve and reject
     return new Promise((resolve, reject) => {
-        let orderTaken;
+        let orderTaken = true;
         
         if(orderTaken) {
             resolve("Heres your Coffee");
